@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0492CBF126BC5DF6005762D9 /* AccountDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492CBF026BC5DF6005762D9 /* AccountDetailsViewController.swift */; };
+		0492CBFC26BC795A005762D9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492CBFB26BC795A005762D9 /* UIView+Extension.swift */; };
 		04B37E0D26BB1599000C880B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37E0C26BB1599000C880B /* AppDelegate.swift */; };
 		04B37E0F26BB1599000C880B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37E0E26BB1599000C880B /* SceneDelegate.swift */; };
 		04B37E1126BB1599000C880B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37E1026BB1599000C880B /* ViewController.swift */; };
@@ -14,9 +16,13 @@
 		04B37E1626BB159A000C880B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B37E1526BB159A000C880B /* Assets.xcassets */; };
 		04B37E1926BB159A000C880B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B37E1726BB159A000C880B /* LaunchScreen.storyboard */; };
 		04B37E2426BB2092000C880B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37E2326BB2092000C880B /* SignInViewController.swift */; };
+		6746CD9021691CC49547EBC3 /* Pods_PacketlyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB91CA862195D72ADDB4C37 /* Pods_PacketlyApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0492CBF026BC5DF6005762D9 /* AccountDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsViewController.swift; sourceTree = "<group>"; };
+		0492CBF426BC63BD005762D9 /* PacketlyAppDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PacketlyAppDebug.entitlements; sourceTree = "<group>"; };
+		0492CBFB26BC795A005762D9 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		04B37E0926BB1599000C880B /* PacketlyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PacketlyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B37E0C26BB1599000C880B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B37E0E26BB1599000C880B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +32,9 @@
 		04B37E1826BB159A000C880B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B37E1A26BB159A000C880B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B37E2326BB2092000C880B /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		2A8F79BB2262BBD56F9F02B4 /* Pods-PacketlyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacketlyApp.release.xcconfig"; path = "Target Support Files/Pods-PacketlyApp/Pods-PacketlyApp.release.xcconfig"; sourceTree = "<group>"; };
+		5AB91CA862195D72ADDB4C37 /* Pods_PacketlyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PacketlyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F5CFCC94EE5AE19F432CB5C /* Pods-PacketlyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacketlyApp.debug.xcconfig"; path = "Target Support Files/Pods-PacketlyApp/Pods-PacketlyApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +42,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6746CD9021691CC49547EBC3 /* Pods_PacketlyApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0492CBEF26BC5DC9005762D9 /* AccountDetails */ = {
+			isa = PBXGroup;
+			children = (
+				0492CBF026BC5DF6005762D9 /* AccountDetailsViewController.swift */,
+			);
+			path = AccountDetails;
+			sourceTree = "<group>";
+		};
+		0492CBFA26BC7936005762D9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0492CBFB26BC795A005762D9 /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		04B37E0026BB1599000C880B = {
 			isa = PBXGroup;
 			children = (
 				04B37E0B26BB1599000C880B /* PacketlyApp */,
 				04B37E0A26BB1599000C880B /* Products */,
+				D9A3B3150A780CC4DC72E3DB /* Pods */,
+				F0055CB99E982A1AD1C85D72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +86,9 @@
 		04B37E0B26BB1599000C880B /* PacketlyApp */ = {
 			isa = PBXGroup;
 			children = (
+				0492CBFA26BC7936005762D9 /* Extension */,
+				0492CBF426BC63BD005762D9 /* PacketlyAppDebug.entitlements */,
+				0492CBEF26BC5DC9005762D9 /* AccountDetails */,
 				04B37E2226BB2074000C880B /* Auth */,
 				04B37E0C26BB1599000C880B /* AppDelegate.swift */,
 				04B37E0E26BB1599000C880B /* SceneDelegate.swift */,
@@ -78,6 +109,23 @@
 			path = Auth;
 			sourceTree = "<group>";
 		};
+		D9A3B3150A780CC4DC72E3DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F5CFCC94EE5AE19F432CB5C /* Pods-PacketlyApp.debug.xcconfig */,
+				2A8F79BB2262BBD56F9F02B4 /* Pods-PacketlyApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F0055CB99E982A1AD1C85D72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AB91CA862195D72ADDB4C37 /* Pods_PacketlyApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04B37E1D26BB159A000C880B /* Build configuration list for PBXNativeTarget "PacketlyApp" */;
 			buildPhases = (
+				36E045507F26D64937B58BB3 /* [CP] Check Pods Manifest.lock */,
 				04B37E0526BB1599000C880B /* Sources */,
 				04B37E0626BB1599000C880B /* Frameworks */,
 				04B37E0726BB1599000C880B /* Resources */,
+				28721A1064C1FA5A7BB83155 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -143,14 +193,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28721A1064C1FA5A7BB83155 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PacketlyApp/Pods-PacketlyApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PacketlyApp/Pods-PacketlyApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PacketlyApp/Pods-PacketlyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36E045507F26D64937B58BB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PacketlyApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04B37E0526BB1599000C880B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0492CBFC26BC795A005762D9 /* UIView+Extension.swift in Sources */,
 				04B37E2426BB2092000C880B /* SignInViewController.swift in Sources */,
 				04B37E1126BB1599000C880B /* ViewController.swift in Sources */,
 				04B37E0D26BB1599000C880B /* AppDelegate.swift in Sources */,
+				0492CBF126BC5DF6005762D9 /* AccountDetailsViewController.swift in Sources */,
 				04B37E0F26BB1599000C880B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,9 +389,11 @@
 		};
 		04B37E1E26BB159A000C880B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F5CFCC94EE5AE19F432CB5C /* Pods-PacketlyApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PacketlyApp/PacketlyAppDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZB7W8B73A3;
 				INFOPLIST_FILE = PacketlyApp/Info.plist;
@@ -314,6 +410,7 @@
 		};
 		04B37E1F26BB159A000C880B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A8F79BB2262BBD56F9F02B4 /* Pods-PacketlyApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
