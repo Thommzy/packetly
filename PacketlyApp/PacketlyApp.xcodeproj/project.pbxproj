@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04178FDC26BE2E0D00813211 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04178FDB26BE2E0D00813211 /* ProfileViewController.swift */; };
+		04178FDF26BE31F500813211 /* StateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04178FDE26BE31F500813211 /* StateModel.swift */; };
+		04178FE226BE338900813211 /* StateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04178FE126BE338900813211 /* StateViewModel.swift */; };
+		04178FE526BE389200813211 /* PriceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04178FE426BE389200813211 /* PriceModel.swift */; };
+		04178FE826BE3A3600813211 /* UtilViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04178FE726BE3A3600813211 /* UtilViewModel.swift */; };
+		04178FEB26BE463B00813211 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04178FEA26BE463B00813211 /* Order.swift */; };
+		046960C726BDA8E600D523AA /* ItemInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046960C626BDA8E600D523AA /* ItemInformationViewController.swift */; };
+		046960CF26BDAA7A00D523AA /* DefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046960CE26BDAA7A00D523AA /* DefaultKeys.swift */; };
+		046960D826BDBFFD00D523AA /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046960D726BDBFFD00D523AA /* HistoryViewController.swift */; };
+		046960E326BDC12700D523AA /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046960E126BDC12700D523AA /* HistoryTableViewCell.swift */; };
+		046960E426BDC12700D523AA /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046960E226BDC12700D523AA /* HistoryTableViewCell.xib */; };
+		0469737F26BD663C0024FA17 /* CongratulationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469737E26BD663C0024FA17 /* CongratulationsViewController.swift */; };
+		0469738326BD6FB40024FA17 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0469738226BD6FB40024FA17 /* Dashboard.storyboard */; };
+		0469738826BD79C70024FA17 /* SendPackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469738726BD79C70024FA17 /* SendPackageViewController.swift */; };
 		0492CBF126BC5DF6005762D9 /* AccountDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492CBF026BC5DF6005762D9 /* AccountDetailsViewController.swift */; };
 		0492CBFC26BC795A005762D9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492CBFB26BC795A005762D9 /* UIView+Extension.swift */; };
 		04B37E0D26BB1599000C880B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37E0C26BB1599000C880B /* AppDelegate.swift */; };
@@ -16,10 +30,31 @@
 		04B37E1626BB159A000C880B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B37E1526BB159A000C880B /* Assets.xcassets */; };
 		04B37E1926BB159A000C880B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B37E1726BB159A000C880B /* LaunchScreen.storyboard */; };
 		04B37E2426BB2092000C880B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37E2326BB2092000C880B /* SignInViewController.swift */; };
+		04EDA6C126BDD2A90024F0FC /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDA6C026BDD2A90024F0FC /* OrderDetailViewController.swift */; };
+		04EDA6CD26BE16040024F0FC /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDA6CC26BE16040024F0FC /* AuthModel.swift */; };
+		04EDA6D226BE17150024F0FC /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDA6D126BE17150024F0FC /* DataService.swift */; };
+		04EDA6D626BE179C0024F0FC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDA6D526BE179C0024F0FC /* Constants.swift */; };
+		04EDA6DA26BE18DF0024F0FC /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDA6D926BE18DF0024F0FC /* AuthViewModel.swift */; };
+		04EDA6E726BE1C920024F0FC /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDA6E626BE1C920024F0FC /* String+Extension.swift */; };
+		04EDA6F526BE1DE00024F0FC /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDA6F426BE1DE00024F0FC /* UIViewController+Extension.swift */; };
 		6746CD9021691CC49547EBC3 /* Pods_PacketlyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB91CA862195D72ADDB4C37 /* Pods_PacketlyApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04178FDB26BE2E0D00813211 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		04178FDE26BE31F500813211 /* StateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateModel.swift; sourceTree = "<group>"; };
+		04178FE126BE338900813211 /* StateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewModel.swift; sourceTree = "<group>"; };
+		04178FE426BE389200813211 /* PriceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceModel.swift; sourceTree = "<group>"; };
+		04178FE726BE3A3600813211 /* UtilViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilViewModel.swift; sourceTree = "<group>"; };
+		04178FEA26BE463B00813211 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		046960C626BDA8E600D523AA /* ItemInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInformationViewController.swift; sourceTree = "<group>"; };
+		046960CE26BDAA7A00D523AA /* DefaultKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultKeys.swift; sourceTree = "<group>"; };
+		046960D726BDBFFD00D523AA /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		046960E126BDC12700D523AA /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		046960E226BDC12700D523AA /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
+		0469737E26BD663C0024FA17 /* CongratulationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratulationsViewController.swift; sourceTree = "<group>"; };
+		0469738226BD6FB40024FA17 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		0469738726BD79C70024FA17 /* SendPackageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendPackageViewController.swift; sourceTree = "<group>"; };
 		0492CBF026BC5DF6005762D9 /* AccountDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsViewController.swift; sourceTree = "<group>"; };
 		0492CBF426BC63BD005762D9 /* PacketlyAppDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PacketlyAppDebug.entitlements; sourceTree = "<group>"; };
 		0492CBFB26BC795A005762D9 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
@@ -32,6 +67,13 @@
 		04B37E1826BB159A000C880B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B37E1A26BB159A000C880B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B37E2326BB2092000C880B /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		04EDA6C026BDD2A90024F0FC /* OrderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailViewController.swift; sourceTree = "<group>"; };
+		04EDA6CC26BE16040024F0FC /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
+		04EDA6D126BE17150024F0FC /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		04EDA6D526BE179C0024F0FC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04EDA6D926BE18DF0024F0FC /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		04EDA6E626BE1C920024F0FC /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		04EDA6F426BE1DE00024F0FC /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		2A8F79BB2262BBD56F9F02B4 /* Pods-PacketlyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacketlyApp.release.xcconfig"; path = "Target Support Files/Pods-PacketlyApp/Pods-PacketlyApp.release.xcconfig"; sourceTree = "<group>"; };
 		5AB91CA862195D72ADDB4C37 /* Pods_PacketlyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PacketlyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F5CFCC94EE5AE19F432CB5C /* Pods-PacketlyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacketlyApp.debug.xcconfig"; path = "Target Support Files/Pods-PacketlyApp/Pods-PacketlyApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -49,6 +91,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04178FDA26BE2DFE00813211 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				04178FDB26BE2E0D00813211 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		046960C526BDA8D000D523AA /* ItemInformation */ = {
+			isa = PBXGroup;
+			children = (
+				046960C626BDA8E600D523AA /* ItemInformationViewController.swift */,
+			);
+			path = ItemInformation;
+			sourceTree = "<group>";
+		};
+		046960D626BDBF9500D523AA /* History */ = {
+			isa = PBXGroup;
+			children = (
+				046960DB26BDC0BE00D523AA /* HistoryTableViewCell */,
+				046960D726BDBFFD00D523AA /* HistoryViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		046960DB26BDC0BE00D523AA /* HistoryTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				046960E126BDC12700D523AA /* HistoryTableViewCell.swift */,
+				046960E226BDC12700D523AA /* HistoryTableViewCell.xib */,
+			);
+			path = HistoryTableViewCell;
+			sourceTree = "<group>";
+		};
+		046960E626BDCD1F00D523AA /* OrderDetail */ = {
+			isa = PBXGroup;
+			children = (
+				04EDA6C026BDD2A90024F0FC /* OrderDetailViewController.swift */,
+			);
+			path = OrderDetail;
+			sourceTree = "<group>";
+		};
+		0469737C26BD661B0024FA17 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0469738126BD6FA60024FA17 /* Dashboard */,
+				0469737D26BD66250024FA17 /* Congratulations */,
+				0492CBEF26BC5DC9005762D9 /* AccountDetails */,
+				04B37E2226BB2074000C880B /* Auth */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		0469737D26BD66250024FA17 /* Congratulations */ = {
+			isa = PBXGroup;
+			children = (
+				0469737E26BD663C0024FA17 /* CongratulationsViewController.swift */,
+			);
+			path = Congratulations;
+			sourceTree = "<group>";
+		};
+		0469738126BD6FA60024FA17 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				04178FDA26BE2DFE00813211 /* Profile */,
+				046960E626BDCD1F00D523AA /* OrderDetail */,
+				046960D626BDBF9500D523AA /* History */,
+				046960C526BDA8D000D523AA /* ItemInformation */,
+				0469738626BD79B00024FA17 /* SendPackage */,
+				0469738226BD6FB40024FA17 /* Dashboard.storyboard */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		0469738626BD79B00024FA17 /* SendPackage */ = {
+			isa = PBXGroup;
+			children = (
+				0469738726BD79C70024FA17 /* SendPackageViewController.swift */,
+			);
+			path = SendPackage;
+			sourceTree = "<group>";
+		};
 		0492CBEF26BC5DC9005762D9 /* AccountDetails */ = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +185,8 @@
 			isa = PBXGroup;
 			children = (
 				0492CBFB26BC795A005762D9 /* UIView+Extension.swift */,
+				04EDA6E626BE1C920024F0FC /* String+Extension.swift */,
+				04EDA6F426BE1DE00024F0FC /* UIViewController+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -86,10 +212,12 @@
 		04B37E0B26BB1599000C880B /* PacketlyApp */ = {
 			isa = PBXGroup;
 			children = (
+				04EDA6D826BE18D00024F0FC /* ViewModel */,
+				04EDA6D026BE17010024F0FC /* Service */,
+				04EDA6CA26BE15E80024F0FC /* Model */,
+				0469737C26BD661B0024FA17 /* Screen */,
 				0492CBFA26BC7936005762D9 /* Extension */,
 				0492CBF426BC63BD005762D9 /* PacketlyAppDebug.entitlements */,
-				0492CBEF26BC5DC9005762D9 /* AccountDetails */,
-				04B37E2226BB2074000C880B /* Auth */,
 				04B37E0C26BB1599000C880B /* AppDelegate.swift */,
 				04B37E0E26BB1599000C880B /* SceneDelegate.swift */,
 				04B37E1026BB1599000C880B /* ViewController.swift */,
@@ -97,6 +225,8 @@
 				04B37E1526BB159A000C880B /* Assets.xcassets */,
 				04B37E1726BB159A000C880B /* LaunchScreen.storyboard */,
 				04B37E1A26BB159A000C880B /* Info.plist */,
+				046960CE26BDAA7A00D523AA /* DefaultKeys.swift */,
+				04EDA6D526BE179C0024F0FC /* Constants.swift */,
 			);
 			path = PacketlyApp;
 			sourceTree = "<group>";
@@ -107,6 +237,35 @@
 				04B37E2326BB2092000C880B /* SignInViewController.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		04EDA6CA26BE15E80024F0FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04EDA6CC26BE16040024F0FC /* AuthModel.swift */,
+				04178FDE26BE31F500813211 /* StateModel.swift */,
+				04178FE426BE389200813211 /* PriceModel.swift */,
+				04178FEA26BE463B00813211 /* Order.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04EDA6D026BE17010024F0FC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				04EDA6D126BE17150024F0FC /* DataService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		04EDA6D826BE18D00024F0FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04EDA6D926BE18DF0024F0FC /* AuthViewModel.swift */,
+				04178FE126BE338900813211 /* StateViewModel.swift */,
+				04178FE726BE3A3600813211 /* UtilViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		D9A3B3150A780CC4DC72E3DB /* Pods */ = {
@@ -186,8 +345,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B37E1926BB159A000C880B /* LaunchScreen.storyboard in Resources */,
+				046960E426BDC12700D523AA /* HistoryTableViewCell.xib in Resources */,
 				04B37E1626BB159A000C880B /* Assets.xcassets in Resources */,
 				04B37E1426BB1599000C880B /* Main.storyboard in Resources */,
+				0469738326BD6FB40024FA17 /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,12 +401,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04178FE826BE3A3600813211 /* UtilViewModel.swift in Sources */,
 				0492CBFC26BC795A005762D9 /* UIView+Extension.swift in Sources */,
 				04B37E2426BB2092000C880B /* SignInViewController.swift in Sources */,
+				04178FDC26BE2E0D00813211 /* ProfileViewController.swift in Sources */,
 				04B37E1126BB1599000C880B /* ViewController.swift in Sources */,
+				04178FDF26BE31F500813211 /* StateModel.swift in Sources */,
 				04B37E0D26BB1599000C880B /* AppDelegate.swift in Sources */,
+				046960C726BDA8E600D523AA /* ItemInformationViewController.swift in Sources */,
+				046960D826BDBFFD00D523AA /* HistoryViewController.swift in Sources */,
+				04178FE226BE338900813211 /* StateViewModel.swift in Sources */,
+				046960E326BDC12700D523AA /* HistoryTableViewCell.swift in Sources */,
+				04EDA6DA26BE18DF0024F0FC /* AuthViewModel.swift in Sources */,
+				04178FEB26BE463B00813211 /* Order.swift in Sources */,
+				04EDA6F526BE1DE00024F0FC /* UIViewController+Extension.swift in Sources */,
+				04EDA6D626BE179C0024F0FC /* Constants.swift in Sources */,
+				0469737F26BD663C0024FA17 /* CongratulationsViewController.swift in Sources */,
+				04EDA6E726BE1C920024F0FC /* String+Extension.swift in Sources */,
 				0492CBF126BC5DF6005762D9 /* AccountDetailsViewController.swift in Sources */,
+				04EDA6D226BE17150024F0FC /* DataService.swift in Sources */,
+				04EDA6CD26BE16040024F0FC /* AuthModel.swift in Sources */,
+				04178FE526BE389200813211 /* PriceModel.swift in Sources */,
+				04EDA6C126BDD2A90024F0FC /* OrderDetailViewController.swift in Sources */,
+				046960CF26BDAA7A00D523AA /* DefaultKeys.swift in Sources */,
 				04B37E0F26BB1599000C880B /* SceneDelegate.swift in Sources */,
+				0469738826BD79C70024FA17 /* SendPackageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

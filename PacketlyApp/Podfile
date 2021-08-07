@@ -7,6 +7,13 @@ target 'PacketlyApp' do
 
 
   pod 'SnapKit', '~> 5.0.0'
+  pod 'SwiftyUserDefaults', '~> 5.0'
+  pod 'IQKeyboardManagerSwift'
+  pod 'AlamofireNetworkActivityLogger', '~> 3.4'
+  pod 'Alamofire', '~> 5.4'
+  pod 'RxSwift', '6.0.0'
+  pod 'RxCocoa', '6.0.0'
+  pod 'Toast-Swift'
 
   # Pods for PacketlyApp
 

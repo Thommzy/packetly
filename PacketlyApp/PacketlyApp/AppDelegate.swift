@@ -6,17 +6,27 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
+import AlamofireNetworkActivityLogger
+import  SwiftyUserDefaults
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
-    
+    var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
         UINavigationBar.appearance().shadowImage = UIImage()
         UINavigationBar.appearance().tintColor = .black
+        
+        #if DEBUG
+        NetworkActivityLogger.shared.level = .debug
+        NetworkActivityLogger.shared.startLogging()
+        #endif
+        
+        IQKeyboardManager.shared.enable = true
         return true
     }
     
