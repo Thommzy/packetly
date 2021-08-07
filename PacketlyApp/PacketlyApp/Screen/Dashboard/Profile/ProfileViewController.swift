@@ -20,6 +20,8 @@ class ProfileViewController: UIViewController {
         setupProfileDetails()
     }
     
+    
+    
     func setupProfileDetails() {
         profilePhoneNumberLbl.text = Defaults[\.savedUserPhoneNumber]
         profileEmailLbl.text = Defaults[\.savedUserEmail]

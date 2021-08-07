@@ -179,7 +179,7 @@
                                                                                                                 <rect key="frame" x="15" y="10" width="324" height="47.5"/>
                                                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                                 <color key="tintColor" systemColor="systemGrayColor"/>
-                                                                                                                <color key="textColor" systemColor="systemGrayColor"/>
+                                                                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
                                                                                                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                                                                                             </textField>
@@ -199,9 +199,9 @@
                                                                                                                 <rect key="frame" x="15" y="10" width="324" height="47.5"/>
                                                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                                 <color key="tintColor" systemColor="systemGrayColor"/>
-                                                                                                                <color key="textColor" systemColor="systemGrayColor"/>
+                                                                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
-                                                                                                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                                                                                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" secureTextEntry="YES"/>
                                                                                                             </textField>
                                                                                                         </subviews>
                                                                                                         <color key="backgroundColor" red="0.94509803920000002" green="0.96078431369999995" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -395,7 +395,7 @@
                                                                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="FullName" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Vc-yp-F1p">
                                                                                                         <rect key="frame" x="15" y="10" width="324" height="40"/>
                                                                                                         <color key="tintColor" red="0.1725256443" green="0.17256247999999999" blue="0.17252331970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
                                                                                                         <textInputTraits key="textInputTraits"/>
                                                                                                     </textField>
@@ -427,7 +427,7 @@
                                                                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Az3-aH-ufV">
                                                                                                         <rect key="frame" x="15" y="10" width="324" height="40"/>
                                                                                                         <color key="tintColor" red="0.1725256443" green="0.17256247999999999" blue="0.17252331970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
                                                                                                         <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                                                                                     </textField>
@@ -459,7 +459,7 @@
                                                                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6BB-0Y-Toa">
                                                                                                         <rect key="frame" x="15" y="10" width="324" height="40"/>
                                                                                                         <color key="tintColor" red="0.1725256443" green="0.17256247999999999" blue="0.17252331970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
                                                                                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                                                                     </textField>
@@ -493,7 +493,7 @@
                                                                                                         <color key="tintColor" red="0.1725256443" green="0.17256247999999999" blue="0.17252331970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
-                                                                                                        <textInputTraits key="textInputTraits"/>
+                                                                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                                                                     </textField>
                                                                                                 </subviews>
                                                                                                 <color key="backgroundColor" red="0.94509803920000002" green="0.96078431369999995" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -525,7 +525,7 @@
                                                                                                         <color key="tintColor" red="0.1725256443" green="0.17256247999999999" blue="0.17252331970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
-                                                                                                        <textInputTraits key="textInputTraits"/>
+                                                                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                                                                     </textField>
                                                                                                 </subviews>
                                                                                                 <color key="backgroundColor" red="0.94509803920000002" green="0.96078431369999995" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -967,9 +967,9 @@
                                                                                                                         <subviews>
                                                                                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="4111 1111 1111 1111" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ch5-5V-vCB">
                                                                                                                                 <rect key="frame" x="15" y="0.0" width="214" height="60"/>
-                                                                                                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
-                                                                                                                                <textInputTraits key="textInputTraits"/>
+                                                                                                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                                                                                             </textField>
                                                                                                                         </subviews>
                                                                                                                         <color key="backgroundColor" systemColor="systemGray5Color"/>
@@ -1026,9 +1026,9 @@
                                                                                                                         <subviews>
                                                                                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="123" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qD7-nE-LYo">
                                                                                                                                 <rect key="frame" x="15" y="0.0" width="70" height="60"/>
-                                                                                                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
-                                                                                                                                <textInputTraits key="textInputTraits"/>
+                                                                                                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                                                                                             </textField>
                                                                                                                         </subviews>
                                                                                                                         <color key="backgroundColor" systemColor="systemGray5Color"/>
@@ -1104,7 +1104,7 @@
                                                                                                                         <subviews>
                                                                                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="MM/YYYY" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="63n-X8-DrU">
                                                                                                                                 <rect key="frame" x="15" y="0.0" width="120" height="60"/>
-                                                                                                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
                                                                                                                                 <textInputTraits key="textInputTraits"/>
                                                                                                                             </textField>

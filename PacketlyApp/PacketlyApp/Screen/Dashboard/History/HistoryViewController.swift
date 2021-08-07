@@ -17,15 +17,25 @@ class HistoryViewController: UIViewController {
     let loadingIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
     let utilViewModel = UtilViewModel(dataService: DataService())
     private let disposedBag = DisposeBag()
-    
     var historyArray: [OrderJobResponseModel?] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setup()
+        setupLoaderParentView()
         setupHistoryTableView()
-
+    }
+    
+    func setupLoaderParentView() {
+        view.addSubview(loadingIndicator)
+        loadingIndicator.snp.makeConstraints { (make) in
+            make.centerX.equalTo(view)
+            make.centerY.equalTo(view)
+        }
+        loadingIndicator.hidesWhenStopped = true
+        loadingIndicator.style = .large
+        loadingIndicator.startAnimating()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -77,7 +87,6 @@ extension HistoryViewController : UITableViewDataSource, UITableViewDelegate {
         print(indexPath.row)
     }
 }
-
 
 extension HistoryViewController {
     func setupBookOrderListResponse() {

@@ -109,12 +109,7 @@ class AccountDetailsViewController: UIViewController {
     
     @IBAction func finishBtnAction(_ sender: UIButton) {
         setupLoaderParentView()
-        print(orderData!, "::::")
         utilViewModel.doOrder(with: orderData!)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
-            self.loadingIndicator.stopAnimating()
-            self.moveToCongratulationScreen()
-        }
     }
     
     func moveToCongratulationScreen() {
@@ -133,7 +128,10 @@ extension AccountDetailsViewController {
             .subscribe(onNext: { [ weak self ]
                 result in
                 if let result = result {
-                    self?.loadingIndicator.stopAnimating()
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                        self?.loadingIndicator.stopAnimating()
+                        self?.moveToCongratulationScreen()
+                    }
                     print(result)
                 }
             })
